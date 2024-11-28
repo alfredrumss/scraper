@@ -25,5 +25,8 @@ Scraper for steamcommunity
     ```bash
     docker compose up --build -d
     ``` 
+   
+   scraper is located in app/src/contrib/scraper.py
+   it runs before FastApi application is initiated 
 
-    The application will start running on `http://localhost:8004/docs#/`.
+The application will start running on `http://localhost:8004/docs#/`.
